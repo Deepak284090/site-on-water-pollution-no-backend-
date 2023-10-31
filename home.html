@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/free-vector/diver-girl-ocean-with-plastic-garbage-bottom_107791-5264.jpg?size=626&ext=jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size:cover;   
+        }
+        h1{
+            font-family: cursive;
+            color:greenyellow;
+            padding-left: 4em;
+            font-size: xx-large;
+
+        }
+        .content{
+            width: 48%;
+            margin-top: 10%;
+            color: bisque;
+            padding-left: 10px;
+            margin-bottom: 15%;
+            margin-left: 50%;
+        }
+        ul.navbar {
+            list-style-type: none;
+            border-radius: 2em;
+            margin: 0;
+            margin-right: 2em;
+            background-color: rgba(0, 238, 255, 0.233);
+            padding: 0;
+            overflow: hidden;
+            float:right;
+        }
+        
+        li.nav-item {
+            float: left;
+        }
+        li.nav-item a {
+            display: block;
+            border-radius: 25%;
+            font-size: larger;
+            color:goldenrod;
+            font-weight: 600;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li.nav-item a:hover {
+            background-color:blueviolet;
+            opacity: .3;
+        }
+        p{
+            color: beige;
+            text-align: center;
+            font-size:x-large ;
+            font-family: cursive;
+            padding-left: 1.5em;
+        }
+        img{
+            border-radius: 10px;
+        }
+        .signup{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35%;
+            height:auto;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(241, 240, 255, 0.39);
+            border-radius: 20px;
+        }
+
+        .container h1 {
+            font-size: 24px;
+        }
+
+        .container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container input {
+            margin: 5px;
+            padding: 10px;
+            width: 250px;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top-container"><h1>Welcome To Pollution Awareness Hub</h1>
+    <div><ul class="navbar">
+        <li class="nav-item"><a href="mainpage.html">
+            <img src="https://cdn-icons-png.flaticon.com/128/8410/8410699.png?track=ais" style="width: 1em;">&nbsp; Insight</a></li>
+        <li class="nav-item"><a href="detection.html">
+            <img src="https://cdn-icons-png.flaticon.com/128/9474/9474837.png?track=ais" style="width: 1em;">&nbsp; Detection</a></li>
+        <li class="nav-item"><a href="cleanup.html">
+            <img src="https://cdn-icons-png.flaticon.com/128/9444/9444104.png?track=ais" style="width: 1em;">&nbsp;Clean-Up</a></li>
+        <li class="nav-item"><a href="detection.html#resource">
+            <img src="https://cdn-icons-png.flaticon.com/128/4122/4122888.png?track=ais" style="width: 1em;">&nbsp;Notify</a></li>
+    </ul></div></div>
+    <section class="content">
+        <p>Welcome to our online platform dedicated to tackling one of the
+            most pressing environmental 
+           challenges of our time: water pollution. Our mission is to 
+           empower you with knowledge, tools,
+            and resources to not only understand the critical issue of 
+            water pollution but also to take 
+            informed actions towards its prevention and remediation.</p>
+        <p>Water, the lifeblood of our planet, sustains all living organisms, 
+            including us. 
+            However, it's under siege from various pollutants that threaten
+             the delicate balance
+             of aquatic ecosystems and our own well-being.
+            At this hub, we dive deep into the world of water pollution, 
+            exploring its origins, consequences, and, most importantly,
+            the solutions that can reverse the damage.
+
+        </p>
+    </section>
+    <section style="display: flex;"><img src="https://img.freepik.com/free-vector/nature-water-pollution-composition-with-underwater-scenery-turtle-swimming-through-particles-dirt-waste_1284-55492.jpg?w=740&t=st=1698585996~exp=1698586596~hmac=a27b1898c5c19926b6e2a3183029a2aed6986bf2e29cd91f9d004f07c770caa4" style="width: 33%;height: auto; margin: 1em;">
+        <section class="signup">
+            <div class="container">
+                <h1>Sign Up</h1>
+                <form action="signup_process.php" method="post">
+                    <input type="text" id="username" placeholder="Username" name="username" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <input type="submit" value="Sign Up">
+                </form>
+
+        </section>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.articlecube.com%2Fsites%2Fdefault%2Ffiles%2Ffield%2Fimage%2F15589%2Fwater-pollution.jpg&f=1&nofb=1&ipt=07aa2095bbf6575d32243a0a81cb0ac9e6a5f11fdafb182ac2d93ee32fb84129&ipo=images"
+            style="width: 27%;height: auto;">
+        </section>
+        <p>Join us in our endevour for better future. Support or work by signing up at our site.</p>
+
+
+</body>
+</html>
